@@ -6,6 +6,12 @@ class OpenslidesManageService < Formula
   version "4.0.6"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/keisisqrl/homebrew-adjunct/releases/download/openslides-manage-service-4.0.6"
+    sha256 cellar: :any_skip_relocation, ventura:      "5e8a8634826255e4d8669a8bca3c857d509581e362b5e2a646d3fcd78071e27f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "cb715bbbe448857d1b2ca542767dafe3848795068e348227d275557dc4d04d83"
+  end
+
   depends_on "go" => :build
 
   # The client "isn't version aware" so...
