@@ -12,8 +12,13 @@ class Droidstar < Formula
   def install
     system "qmake", "LIBS=-L#{HOMEBREW_PREFIX}/lib", "INCLUDEPATH=#{HOMEBREW_PREFIX}/include"
     system "make"
-    prefix.install "DroidStar.app"
-    bin.write_exec_script prefix/"DroidStar.app/Contents/MacOS/DroidStar"
+    on_macos do
+      prefix.install "DroidStar.app"
+      bin.write_exec_script prefix/"DroidStar.app/Contents/MacOS/DroidStar"
+    end
+    on_linux do
+      bin.install "DroidStar"
+    end
   end
 
   test do
