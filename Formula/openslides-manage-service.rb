@@ -1,16 +1,9 @@
 class OpenslidesManageService < Formula
   desc "OpenSlides Management Client"
   homepage "https://github.com/openslides/openslides"
-  url "https://github.com/OpenSlides/openslides-manage-service.git",
-    revision: "e4fc8ef5c77d4a3dbabf217e131b68c956bf8f04"
-  version "4.0.6"
+  url "https://github.com/OpenSlides/openslides-manage-service/archive/refs/tags/4.0.9.tar.gz"
+  sha256 "c50bb61c3840da969374a92d9797895de3d0c62017370d22fea7f33a1142988b"
   license "MIT"
-
-  bottle do
-    root_url "https://github.com/keisisqrl/homebrew-adjunct/releases/download/openslides-manage-service-4.0.6"
-    sha256 cellar: :any_skip_relocation, ventura:      "5e8a8634826255e4d8669a8bca3c857d509581e362b5e2a646d3fcd78071e27f"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "cb715bbbe448857d1b2ca542767dafe3848795068e348227d275557dc4d04d83"
-  end
 
   depends_on "go" => :build
 
@@ -35,7 +28,7 @@ index a4e2d49..749c34f 100644
  defaults:
    containerRegistry: ghcr.io/openslides/openslides
 -  tag: latest
-+  tag: 4.0.6
++  tag: 4.0.9
  
  # These environment variables are injected into every OpenSlides service
  # via YAML merge type (https://yaml.org/type/merge.html).
