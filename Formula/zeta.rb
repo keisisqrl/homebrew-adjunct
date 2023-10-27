@@ -11,6 +11,12 @@ class Zeta < Formula
     regex(/href=.+?zeta86-(\d+?\.\d+?\.\d+?)-src\.t/i)
   end
 
+  bottle do
+    root_url "https://github.com/keisisqrl/homebrew-adjunct/releases/download/zeta-1.0.5"
+    sha256 cellar: :any,                 ventura:      "5a956bdd2621302d129690ccecc2e3cde5f78568967614fe9312884dbd88d893"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a5964465ec2110d3c9b94c83cffe1057399f4efcb090b973d0ff8c783c079a8d"
+  end
+
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "pillow" => :build
