@@ -4,7 +4,7 @@ class Kevedit < Formula
   url "https://github.com/cknave/kevedit/releases/download/1.2.0/kevedit-1.2.0.tar.gz"
   sha256 "d8df7fdaa492b6f10d37f4a81acde7c42a2c18715751122ec4a69e78bc43c47a"
   license "GPL-2.0-or-later"
-  head "https://github.com/cknave/kevedit", branch: "main"
+  head "https://github.com/cknave/kevedit.git", branch: "main"
 
   depends_on "coreutils" => :build
   depends_on "pkg-config" => :build
