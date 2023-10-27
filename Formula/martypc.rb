@@ -10,6 +10,9 @@ class Martypc < Formula
     regex(/^(\d+?\.\d+?\.\d+?)$/i)
   end
 
+  on_linux do
+    depends_on "alsa-lib"
+  end
   depends_on "rust" => :build
 
   def install
