@@ -14,6 +14,7 @@ class Zeta < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "pillow" => :build
+  depends_on "pkg-config" => :build
   depends_on "python@3.11" => :build
   depends_on "libpng"
   depends_on "sdl2"
