@@ -1,8 +1,8 @@
 class Kevedit < Formula
   desc "ZZT editor"
   homepage "https://github.com/cknave/kevedit"
-  url "https://github.com/cknave/kevedit/releases/download/1.2.0/kevedit-1.2.0.tar.gz"
-  sha256 "d8df7fdaa492b6f10d37f4a81acde7c42a2c18715751122ec4a69e78bc43c47a"
+  url "https://github.com/cknave/kevedit/releases/download/1.2.1/kevedit-1.2.1.tar.gz"
+  sha256 "7eb3277b8642a508eb48506da2e135ffe1708a0dcc855e294ede465a6f118d65"
   license "GPL-2.0-or-later"
   head "https://github.com/cknave/kevedit.git", branch: "main"
 
