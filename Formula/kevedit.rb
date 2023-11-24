@@ -7,9 +7,9 @@ class Kevedit < Formula
   head "https://github.com/cknave/kevedit.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/keisisqrl/homebrew-adjunct/releases/download/kevedit-1.2.0"
-    sha256 ventura:      "0b1b7910187bc10db16c23f33eb00ad746dd5d9d222d29dbaff7ab124c844e43"
-    sha256 x86_64_linux: "a88187a4083d54b98488cb230893fa225b7ba52df5de042b276c2f7712c85677"
+    root_url "https://github.com/keisisqrl/homebrew-adjunct/releases/download/kevedit-1.2.1"
+    sha256 ventura:      "1e2ddace0823cc8c39ab17198087d6603eb14874077158015e6907e008856d3e"
+    sha256 x86_64_linux: "e79d22ea225283b0c4103496db5a9b2bab65ca20c7f0d99d092eb4d290ea0522"
   end
 
   depends_on "coreutils" => :build
