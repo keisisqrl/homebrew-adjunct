@@ -14,5 +14,5 @@ cask "intiface-central" do
 
   depends_on macos: ">= :mojave"
 
-  app "Intiface Central.app"
+  app "IntifaceCentralv#{version}/Intiface Central.app"
 end
