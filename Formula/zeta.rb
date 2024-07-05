@@ -1,8 +1,8 @@
 class Zeta < Formula
   desc "Minimal DOS emulator designed to run ZZT"
   homepage "https://zeta.asie.pl/"
-  url "https://zeta.asie.pl/zeta86-1.0.5-src.tar.xz"
-  sha256 "f3e66030f8ba6ca9bede8bb7f4b6630bf68200cd70877d87ae5010b00cea6004"
+  url "https://zeta.asie.pl/zeta86-1.0.7-src.tar.xz"
+  sha256 "2ecf2ba1eabb3c91af95f0ed412c35cf918ca30bce1d8000cb4419fb53f91547"
   license "MIT"
   head "https://github.com/asiekierka/zeta.git", branch: "master"
 
